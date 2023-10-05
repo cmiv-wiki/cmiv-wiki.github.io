@@ -146,6 +146,10 @@ ul li:hover {
   background-color:black;
   }
 
+  .droptext{
+    cursor: pointer;
+  }
+
   .dropdown-content {
   display: none;
   position: absolute;
