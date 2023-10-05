@@ -198,8 +198,5 @@ ul li:hover {
     border: none;
     flex: 1; 
     display:block;
-    background-color: white;
-    /* height: 1000px; */
-    /* flex-direction: column; */
     }
 
