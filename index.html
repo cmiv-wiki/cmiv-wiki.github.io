@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/index.css" />
     <title>CMIV-wiki</title>
   </head>
-  <body onclick >
+  <body>
     <header>
       <div id="brand"><a href="content/home-page.html" target="iFrame">CMIV-wiki</a></div>
       <nav>
@@ -53,5 +53,17 @@
     <div id="container">
       <iframe name="iFrame" id="iFrame" src="content/home-page.html"></iframe>
     </div>
+
+    <script>
+      var mobileHover = function () {
+          $('*').on('touchstart', function () {
+              $(this).trigger('hover');
+          }).on('touchend', function () {
+              $(this).trigger('hover');
+          });
+      };
+
+      mobileHover();
+    </script>
   </body>
 </html>
