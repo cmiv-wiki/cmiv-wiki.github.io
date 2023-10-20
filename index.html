@@ -6,41 +6,100 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/index.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <title>CMIV-wiki</title>
+    <title>CMIV-MR-wiki</title>
   </head>
   <body>
     <header>
-      <div id="brand"><a href="content/home-page.html" target="iFrame">CMIV-wiki</a></div>
+      <!-- menu -->
+      <div id="brand"><a href="content/home-page.html" target="iFrame">CMIV-MR-wiki</a></div>
+      <!-- big window menu -->
       <nav>
         <ul class="topmenu">
-          <li><a href="content/home-page.html" target="iFrame">Home</a></li>
+          <li>
+            <a href="content/home-page.html" target="iFrame">Home</a>
+          </li>
+          <li>
+            <a href="https://docs.google.com/gview?url=https://cmiv-wiki.github.io/content/mr_guidelines.pdf&embedded=true" target="iFrame">MR guidelines</a>
+          </li>
+          <li>
+            <!-- https://docs.google.com/gview?url=&embedded=true -->
+            <a href="https://ledsys.lio.se/Document/Document?DocumentNumber=30540" target="iFrame">MR extra ordinary events</a>
+          </li>
+          <li class="dropdown">
+            <div class="droptext">MR4 <i class="fa fa-caret-down"></i></div>
+            <ul class="dropdown-content" style="right: 0;">
+              <li>
+                <a href="content/mr4/mr4-operator-instructions.html" target="iFrame">Operator instructions</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <div class="droptext">MR5 <i class="fa fa-caret-down"></i></div>
+            <ul class="dropdown-content" style="right: 0;">
+              <li>
+                <a href="content/mr5/mr5-operator-instructions.html" target="iFrame">Operator instructions</a>
+              </li>
+            </ul>
+          </li>
           <li class="dropdown">
             <div class="droptext">MR6 <i class="fa fa-caret-down"></i></div>
             <ul class="dropdown-content" style="right: 0;">
               <li>
-                <a href="content/mr6/mr6-practical-usage.html" target="iFrame">Practical usage</a>
+                <a href="content/mr6/mr6-operator-instructions.html" target="iFrame">Operator instructions</a>
               </li>
               <li>
-                <a href="https://docs.google.com/gview?url=https://cmiv-wiki.github.io/content/mr6/pdf_test3.pdf&embedded=true" target="iFrame">PDF test</a>
+                <a href="https://docs.google.com/gview?url=https://cmiv-wiki.github.io/content/mr6/mr6_system_knowledge.pdf&embedded=true" target="iFrame">System knowledge</a>
+              </li>
+              <li>
+                <a href="https://docs.google.com/gview?url=https://cmiv-wiki.github.io/content/mr6/mr6_safety_handbook.pdf&embedded=true" target="iFrame">Safety handbook</a>
               </li>
             </ul>
           </li>
         </ul>
       </nav>
+      <!-- small window menu -->
       <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
         <div class="bar1 line-div"></div>
         <div class="bar2 line-div"></div>
         <div class="bar3 line-div"></div>
         <ul class="mobile-menu ">
-          <li><a href="content/home-page.html" target="iFrame">Home</a></li>
+          <li>
+            <a href="content/home-page.html" target="iFrame">Home</a>
+          </li>
+          <li>
+            <a href="https://docs.google.com/gview?url=https://cmiv-wiki.github.io/content/mr_guidelines.pdf&embedded=true" target="iFrame">MR guidelines</a>
+          </li>
+          <li>
+            <!-- https://docs.google.com/gview?url=&embedded=true -->
+            <a href="https://ledsys.lio.se/Document/Document?DocumentNumber=30540" target="iFrame">MR extra ordinary events</a>
+          </li>
+          <li class="dropdown">
+            <div class="droptext">MR4 <i class="fa fa-caret-down"></i></div>
+            <ul class="dropdown-content">
+              <li>
+                <a href="content/mr4/mr4-operator-instructions.html" target="iFrame">Operator instructions</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <div class="droptext">MR5 <i class="fa fa-caret-down"></i></div>
+            <ul class="dropdown-content">
+              <li>
+                <a href="content/mr5/mr5-operator-instructions.html" target="iFrame">Operator instructions</a>
+              </li>
+            </ul>
+          </li>
           <li class="dropdown">
             <div class="droptext">MR6 <i class="fa fa-caret-down"></i></div>
             <ul class="dropdown-content">
               <li>
-                <a href="content/mr6/mr6-practical-usage.html" target="iFrame">Practical usage</a>
+                <a href="content/mr6/mr6-operator-instructions.html" target="iFrame">Operator instructions</a>
               </li>
               <li>
-                <a href="https://docs.google.com/gview?url=https://cmiv-wiki.github.io/content/mr6/pdf_test3.pdf&embedded=true" target="iFrame">PDF test</a>
+                <a href="https://docs.google.com/gview?url=https://cmiv-wiki.github.io/content/mr6/mr6_system_knowledge.pdf&embedded=true" target="iFrame">System knowledge</a>
+              </li>
+              <li>
+                <a href="https://docs.google.com/gview?url=https://cmiv-wiki.github.io/content/mr6/mr6_safety_handbook.pdf&embedded=true" target="iFrame">Safety handbook</a>
               </li>
             </ul>
           </li>
@@ -49,6 +108,8 @@
       </div>
     </header>
     <script src="js/index.js"></script>
+
+    
 
 
     <div id="container">
