@@ -67,10 +67,10 @@
 
 
             <!-- Dropdown header -->
-            <details><summary>When is a <em>Metodbok</em> necessary?</summary>
+            <details><summary>When is a "Metodbok" necessary?</summary>
                 <!-- Text -->
                 <p>
-                    You are <strong>required</strong> to create a <em>Metodbok</em> (method book) if you are scanning participants in your study with the help of clinical staff, who will be using the book to assure that the correct scanning procedure is being followed. 
+                    You are <strong>required</strong> to create a "Metodbok" (method book) if you are scanning participants in your study with the help of clinical staff, who will be using the book to assure that the correct scanning procedure is being followed. 
                 </p>
                 <p>
                     To create a metodbok you need to consult the clinical personal in your project in order to setup the necessary documentation.
@@ -90,6 +90,38 @@
                 <p>
                     <a href="../cmiv-mr-guidelines.pdf">Documentation around administrative policies can be found here</a>, including scheduling, billing and responsibilities.
                 </p>
+            </details>
+
+            <!-- Dropdown header -->
+            <details><summary id="phone-numbers">Which phone-numbers are good to memories?</summary>
+                <!-- Text -->
+                <p>
+                    It case something happens at the scanner, either patient or equipment related, it is good to know where you can turn for help. Therefore we list some numbers below that is good to memories.
+                </p>
+                <p>
+                    <strong>Note:</strong> We list the internal hospital numbers which all start with 3 and are 5 digits long. If you are calling from a non-hospital phone, you need to add <strong>01010</strong> before dialing the number.
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            Need of acute <em>Doctor's help</em>: <strong>31100</strong><br>
+                            You can also use the emergency console "Acute help", see <a href="#acute-help">Where are all the safety buttons and fire extinguishers?</a>.
+                        </li>
+                        <li>
+                            Need of acute <em>Technical help</em>: <strong>36000</strong><br>
+                            This number leads to Stöd och Service, which is the central help function at the hospital.
+                        </li>
+                        <li>
+                            MR6 Modality Manager <em>Viktor Kostic</em>: <strong>38295</strong><br>
+                            Viktor is in charge of the MR6 scanner as should be notified if something is not working. If not acute you can send an email to <a href="mailto:viktor.kostic@regionostergotland.se">Viktor</a>.
+                        </li>
+                        <li>
+                            Hospital Medical Technologist <em>Bo Wahlström</em>: <strong>33898</strong><br>
+                            Bo (Bosse) is very technical knowledgeable about MR6 and the various equipment installed and can therefore usually help with a variety of problems. You can also email <a href="mailto:bo.wahlstrom@regionostergotland.se">Bosse</a> if not acute.
+                        </li>
+                    </ul>
+                </p>
+    
             </details>
 
 
@@ -183,6 +215,7 @@
                         <li>Console computer</li>
                         <li>Camera monitor</li>
                         <li>Constrast inj. control</li>
+                        <li>Hospital phone</li>
                         <li>Hospital computer</li>
                         <li>NovaFlow computer</li>
                         <li>Gas Alarm</li>
@@ -205,7 +238,7 @@
                 <h2>Gradient, Power Supply and Cryopump cabinet</h2>
                 <p>
                     <img decoding="async" loading="lazy" src="images/cmiv/gradient-amplifiers-cryo.jpg" alt="mr6-gradient-amplifiers-cryo-cabinet" style="width:300px"><br>
-                    From left: Gradient cabinet, Power Supply cabinet and Cryopump cabinet 
+                    From left: Gradient, Power Supply and Cryopump cabinet 
                 </p>
                 <p>
                     The Cryopump is an important piece equipment in an MR scanner, and is responsible for cooling Helium. It is this pump that makes the repetitive noise (‘hm-tjuk-hm-tjuk-hm-tjuk…’). If not, please advise the MR-manager, or other staff that can take care of the condition.
@@ -216,11 +249,11 @@
                     The climate in the scanner room is closely regulated by equipment in the technical room.
                 </p>
                 <div class="row">
-                    <div class="column">
+                    <div class="column" style="width: 30%;">
                         <img decoding="async" loading="lazy" src="images/cmiv/dehumidifier.jpg" alt="dehumidifier" style="height:200px;"><br>
                         Dehumidifier
                     </div>
-                    <div class="column">
+                    <div class="column" style="width: 70%;">
                         <img decoding="async" loading="lazy" src="images/cmiv/humidifer.jpg" alt="humidifer" style="height:200px;"><br>
                         Humidifier
                     </div>
@@ -244,7 +277,7 @@
             </details>
 
             <!-- Dropdown header -->
-            <details><summary>Where are all the safety buttons and fire extinguishers?</summary>
+            <details><summary id="acute-help">Where are all the safety buttons and fire extinguishers?</summary>
                 <!-- Text -->
                 <p>
                     The figure below shows an overview of the MR5/MR6 floor plan at CMIV, including Quench button, Electric stop, Fire extinguisher.
@@ -908,9 +941,10 @@
 
             <!-- Section header -->
             <h2>Troubleshooting</h2>
+            
 
             <!-- Dropdown header -->
-            <details><summary>I can't hear anything happening! How can I tell what the scanner is doing?</summary>
+            <details><summary>How can I tell what the scanner is doing?</summary>
             <!-- Text -->
 
             <p>Look in the very bottom left-hand corner of the screen. It might say, for example: “Waiting for scan instructions,” or “Waiting for slice positioning,” or “Scanning 00:09 (196/200 B).” That last message tells you there are 9 seconds left in the current scan, and that it's just finished acquiring 196 of 200 repetitions in a time series. The other messages are usually self-explanatory.</p>
@@ -931,7 +965,7 @@
             </details>
 
             <!-- Dropdown header -->
-            <details><summary>The scanner doesn't seem to be working properly, how can I tell what is wrong and what can I do?</summary>
+            <details><summary>The scanner doesn't work properly, how can I tell what is wrong and what can I do?</summary>
             <!-- Text -->
 
             <p>All warnings and errors are represented as pop up boxes and/or as icons at the bottom of the screen.</p>
@@ -949,10 +983,10 @@
                 <img decoding="async" loading="lazy" style="width: 500px;" src="images/cbs/Icons_SystemError.jpeg" alt="console warning"></p>
 
             <p>
-                To view what the error/warning is, click on the icon. A pop up box will have the message. If you choose okay, it will clear the message, so it is generally better to press the close button so that these don't get cleared. It is also a good idea to write down or take a&nbsp;<a href="#screen-shot">screen shot</a>&nbsp;of the message so that you can relay it to <a href="mailto:viktor.kostic@regionostergotland.se">Viktor Kostic</a> who is responsible for MR6. If you have an error/warning during regular business hours you could try and contact Viktor directly, you will find his phone number on the white-board behind the control room.
+                To view what the error/warning is, click on the icon. A pop up box will have the message. If you choose okay, it will clear the message, so it is generally better to press the close button so that these don't get cleared. It is also a good idea to write down or take a&nbsp;<a href="#screen-shot">screen shot</a>&nbsp;of the message so that you can relay it to <a href="mailto:viktor.kostic@regionostergotland.se">Viktor Kostic</a> who is the manager for MR6. If you have an error/warning during regular business hours you could try and contact Viktor directly, you will find his phone-number under <a href="#phone-numbers">Which phone-numbers are good to memories?</a>
             </p>
             <p>
-                If it is after hours you can try talking to the hospital general <em>Stöd och service</em> by calling: 010 103 60 00. Hopefully you will get in contact with someone who can assist you. However, there is no guarantee; that is the risk that comes from scanning outside of business hours. There should usually be someone around between 7:30-16:00 during weekdays.
+                If it is after hours you can try talking to the hospital's <a href="#phone-numbers">Stöd och service</a>. Hopefully you will get in contact with someone who can assist you. However, there is no guarantee; that is the risk that comes from scanning outside of business hours. There should usually be someone around between 7:30-16:00 during weekdays.
             </p>
 
             <p>
