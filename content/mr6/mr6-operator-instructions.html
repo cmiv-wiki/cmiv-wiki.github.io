@@ -668,7 +668,7 @@
                 <li>
                     Under the <em>Transfer</em> menu, select select “<em>Archive to...</em>“.<br>
                     <!-- <img decoding="async" loading="lazy" style="width: 450px;" src="images/cbs/scanner_SendToCBSC_annot.jpeg" alt="transfer drop-down menu"> -->
-                    <img decoding="async" loading="lazy" style="width: 450px;" src="images/cmiv/archive-to.jpg" alt="transfer-drop-down-menu">
+                    <img decoding="async" loading="lazy" style="width: 450px;" src="images/cmiv/archive-to.jpg" alt="transfer-drop-down-menu-archive-to">
                 </li>
                 <li>
                     A window will pop-up in order for you to select were to archive your data. Usually you want to archive it to <em>Research</em>, which will send it to the <strong>Research PACS</strong>.<br>
@@ -688,6 +688,43 @@
             </ul>
 
             </details>
+
+            <!-- Dropdown header -->
+            <details><summary id="external-drive">How do I send my data to external storage like "XNAT"?</summary>
+                <!-- Text -->
+    
+                <ul>
+                    <li>
+                        Open the data browser through the patient pull down menu or by hitting the button in the lower right hand corner that has a folder tree file on it.<br>
+                        <img decoding="async" loading="lazy" style="width: 150px;" src="images/cbs/scanner_PatientBrowser-360x480-1.jpeg" alt="patient browser keypad">
+                    </li>
+                    <li>
+                        Highlight your subject or session, but ensure a specific series/scan is not highlighted (otherwise only the highlighted scan will be sent).<br>
+                        <img decoding="async" loading="lazy" style="width: 450px;" src="images/cbs/scanner_highlightsession-800x346-1.jpeg" alt="patient browser window">
+                    </li>
+                    <li>
+                        Under the <em>Transfer</em> menu, select select “<em>Send to...</em>“.<br>
+                        <!-- <img decoding="async" loading="lazy" style="width: 450px;" src="images/cbs/scanner_SendToCBSC_annot.jpeg" alt="transfer drop-down menu"> -->
+                        <img decoding="async" loading="lazy" style="width: 450px;" src="images/cmiv/send-to.jpg" alt="transfer-drop-down-menu-send-to">
+                    </li>
+                    <li>
+                        A window will pop-up in order for you to select to which "node" you want to send your data. Usually this is different for different research groups.<br>
+                        <img decoding="async" loading="lazy" style="width: 450px;" src="images/cmiv/send-to-options.jpg" alt="send-to-options">
+                    </li>
+                    <!-- <li>
+                        Once there, you need to <a href="#manual-archive">manually archive it</a>&nbsp;(unless you <a href="#aut-oarchive">set the session up to&nbsp;auto-archive</a>&nbsp;when you registered the subject). Otherwise you will not be able to access the data for analysis)
+                    </li> -->
+                    <li>
+                        Go back to the <em>Transfer</em> menu at the top of the screen and select <em>Network Job Status</em> to make sure the DICOM transfer is working. Make sure your transfer moves from <em>Spooling</em> to <em>Active</em> and that it is transferring <em>Entire Patient</em> and not just a volume or subset of volumes.
+                        <!-- <img decoding="async" loading="lazy" style="width: 450px;" src="images/cbs/scanner_NetworkJobStatus.png" alt="network job status in menu"> -->
+                    </li>
+                    <li>
+                        You can also look for the network-send icon at the bottom of the screen&nbsp;(below).<br>
+                        <img decoding="async" loading="lazy" style="width: 450px;" src="images/cbs/scanner_Network_Send_inProg_annot.jpeg" alt="network send icon">
+                    </li>
+                </ul>
+    
+                </details>
 
             <!-- Dropdown header -->
             <details><summary id="external-drive">How do I export my data to an external drive?</summary>
@@ -885,8 +922,6 @@
                 If the problem is in the Image Reconstruction system, you can choose the Meas &amp; Recon tab, and restart the image calculation software. Choose&nbsp;<a href="mailto:MrIrisContainer@mars">MrIrisContainer@mars</a>, and then click Restart at right (time to complete – about 30 seconds).&nbsp;<strong>Note: This is also a good step to do routinely before your session begins, especially if you're using cutting-edge sequences.</strong>
                 <img decoding="async" loading="lazy" style="width: 450px;" src="images/cbs/SystemManager3_annot-800x744-1.jpeg" alt="system manager menu">
             </p>
-
-            
 
             <!-- <p>
             <strong>Update?</strong><br>
